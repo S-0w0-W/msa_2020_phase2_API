@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/msa2020sw/databases/blog",
+      "type": "mssql.azure",
+      "connectionId": "msa_2020_phase2_context",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
