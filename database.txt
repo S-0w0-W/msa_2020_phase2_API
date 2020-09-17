@@ -1,0 +1,14 @@
+SQL Database:
+
+database name: blog
+server: msa2020sw(EastUS)
+server admin login: swang
+pass: 420DankMemes
+connection string: Server=tcp:msa2020sw.database.windows.net,1433;Initial Catalog=blog;Persist Security Info=False;User ID=swang;Password=420DankMemes;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+Visual studio:
+
+scaffolding:
+Scaffold-DbContext "Server=tcp:msa2020sw.database.windows.net,1433;Initial Catalog=blog;Persist Security Info=False;User ID=swang;Password=420DankMemes;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Model -Context "msa_2020_phase2_context" -DataAnnotations
+
+swagger: https://localhost:44386/swagger/index.html
